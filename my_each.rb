@@ -1,5 +1,5 @@
 def my_each(arr)
   
-  yield
-  
+  yield(arr)
+  return arr
 end
